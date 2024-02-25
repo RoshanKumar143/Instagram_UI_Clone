@@ -137,5 +137,134 @@ body{
  
 }
 
+@media(min-width: 990px){
+    a{
+        text-decoration: none;
+    }
+    .navbar{
+        /* width: 990px;  */
+        margin: 20px auto;
+        padding: 16px 0;
+        /* background-color: #fff; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-top: 4px;
+        height: 50px;
+        color: crimson;
+        font-style: italic;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:39px;
+        font-weight: 700;
+        text-shadow: 5px 4px 5px rgb(200, 166, 166);
+    }
+    .buttons{
+        display: flex;
+        gap: 10px;
+    }
+    .btn, .button{
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 12px;
+        padding: 5px 19px;
+        font-size: 19px;
+    }
+    .buttons .btn:hover, .button:hover{
+        color: #FFFFFF;
+        background-color: black;
+        border: 1px solid lightgray;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    .changeMode{
+        background-color: black;
+        color: white;
+        
+    }
+
+    
+    .container{
+        /* width: 990px; */
+        margin: 60px auto;
+        display: flex; 
+        /* gap: 40px; */
+    }
+    .feeds{
+        width: 65%;
+        /* height:700px;*/
+        /* background-color: red; */
+    }
+    .feed{
+        border: 1px solid lightgray;
+        border-radius: 16px;
+        padding: 10px;
+        margin-bottom: 24px;
+    }
+    .user{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .name{
+        margin: 0;
+    }
+    .user-name{
+        margin: 0;
+        color: rgb(56, 56, 56);
+        font-size: 14px;
+    }
+    .profile{
+        display: flex;
+        gap: 6px;
+    }
+    .feed-img{
+        width: 100%;
+        margin-top: 24px;
+        border-radius: 16px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    /* story-section */
+    .story-container{
+        /* width: 100%; */
+        display: flex;
+        /* margin: 30px auto; */
+        margin-top: 40px;
+        gap: 8px;
+    }
+    .story-img{
+        height: 76px;
+        border-radius: 50%;
+    }
+    .story{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    /* sidebar-section */
+    .sidebar{
+        width: 35%;
+        /* height:700px;  */
+        /* background-color: blue; */ 
+        text-align: center;
+    }
+    .title{
+        margin: 0;
+    }
+    .app{
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+    }
+    .app img{
+        height: 40px;
+    }
+}
 
 
